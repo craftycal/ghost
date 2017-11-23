@@ -6,13 +6,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="https://cdn.ckeditor.com/ckeditor5/1.0.0-alpha.2/classic/ckeditor.js"></script>
-
+  <script type="text/javascript" src="js/sideBar.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand|Lato|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-
-
-  <title></title>
+  <title>ghost! ohhhh spookie</title>
 </head>
 <body>
 
@@ -46,26 +44,32 @@
             </ul>
           </li>
         </ul>
-
-
         <ul class="nav navbar-nav navbar-right">
           <!-- Authentication Links -->
           <li><a href="#">links</a></li>
           <li><a href="#">links</a></li>
           <li><a href="#">links</a></li>
           <li><a href="#">links</a></li>
-
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container">
 
+  <div class="popOutButton dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs" aria-hidden="true"></i></div>
+  <div class="dropdown-menu pull-right popoutTools" aria-labelledby="dropdownMenuButton">
+    <ul>
+      <li><a class="dropdown-item" href="#">Action</a> </li>
+      <li><a class="dropdown-item" href="#">Another action</a> </li>
+      <li><a class="dropdown-item" href="#">Something else here</a> </li>
+    </ul>
+  </div>
+
+
+  <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
         <h3>Headings:</h3>
-
         <!-- - - - - - - - - - - headings - - - - - - - - - - -->
         <div class="card">
           <h1>h1 Heading</h1>
@@ -75,7 +79,6 @@
           <h5>h5 Heading</h5>
           <h6>h6 Heading</h6>
         </div>
-
       </div>
     </div>
     <div class="row">
@@ -89,6 +92,7 @@
             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
+
           <hr>
 
           <!-- - - - - - - - - - - well well well, what do we have here?  - - - - - - - - - - -->
@@ -96,20 +100,46 @@
             <h4>Help I'm in a Well</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.
+              ut labore et dolore magna aliqua. <span class="highlighter-primary">text highlight</span>
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
 
+          <hr>
+          <!-- - - - - - - - - - - Text Highlight - hay! hay!  - - - - - - - - - - -->
+          <h3>Text Highlight</h3>
+          <p>draw attention to important words</p>
+          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-primary">hello</span> laboris nisi ut aliquip consequat.</p>
+          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-danger">hello</span> laboris nisi ut aliquip consequat.</p>
+          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-info">hello</span> laboris nisi ut aliquip consequat.</p>
+          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-light">hello</span> laboris nisi ut aliquip consequat.</p>
+          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-dark">hello</span> laboris nisi ut aliquip consequat.</p>
+          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-success">hello</span> laboris nisi ut aliquip consequat.</p>
+          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-warning">hello</span> laboris nisi ut aliquip consequat.</p>
+
+          <hr>
+
+          <!-- - - - - - - - - - - holder of the triforce of courage  - - - - - - - - - - -->
           <a href="#">this is a link</a> <br>
-          <a class="success" href="#">this is a link</a> <br>
-          <a class="danger" href="#">this is a link</a> <br>
-          <a class="warning" href="#">this is a link</a>   <br>
-          <a class="info" href="#">this is a link</a>
+          <a class="success" href="#">this is a success link</a> <br>
+          <a class="danger" href="#">this is a danger link</a> <br>
+          <a class="warning" href="#">this is a warning link</a> <br>
+          <a class="info" href="#">this is a info link</a>
 
+          <hr>
 
+          <!-- - - - - - - - - - - pips - - - - - - - - - - -->
+          <h3>pips</h3>
+          <p>pips are small splashes of colour used with alerts and icons</p>
+          <p>when using fontawesome within the pips add the "fa-fw" class to the icon this makes the icons the same width</p>
 
-
+          <p>hello <span class="pip-primary"><i class="fa-fw fa fa-check" aria-hidden="true"></i></span> pip-primary</p>
+          <p><span class="pip-danger"><i class="fa-fw fa fa-exclamation-triangle" aria-hidden="true"></i></span> pip-danger</p>
+          <p><span class="pip-info"><i class="fa-fw fa fa-bath" aria-hidden="true"></i></span> pip-info</p>
+          <p><span class="pip-light"><i class="fa-fw fa fa-times" aria-hidden="true"></i></span> pip-light</p>
+          <p><span class="pip-dark"><i class="fa-fw fa fa-envelope-o" aria-hidden="true"></i></span> pip-dark</p>
+          <p><span class="pip-success"><i class="fa-fw fa fa-coffee" aria-hidden="true"></i></span> pip-success</p>
+          <p><span class="pip-warning"><i class="fa-fw fa fa-exclamation" aria-hidden="true"></i></span> pip-warning</p>
 
         </div>
       </div>
@@ -243,7 +273,7 @@
 
           <!-- - - - - - - - - - - success alert - - - - - - - - - - -->
           <div class="alert alert-success" role="alert">
-            <h4><b>Alert - Success</b></h4>
+            <h4><b>Alert - Success</b> <span class="pip"><i class="fa-fw fa fa-bath" aria-hidden="true"></i></span></h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -288,6 +318,8 @@
       <div class="col-md-10 col-md-offset-1">
         <h3>Forms:</h3>
         <div class="card">
+
+          <!-- - - - - - - - - - - Form - - - - - - - - - - -->
           <form>
 
             <!-- - - - - - - - - - - Textfield - - - - - - - - - - -->
@@ -322,29 +354,32 @@
         </div>
       </div>
     </div>
-
   </div>
-
-<!-- - - - - - - - - - - footer - - - - - - - - - - -->
+  <!-- - - - - - - - - - - footer - - - - - - - - - - -->
   <footer>
     <div class="row">
-      <div class="col-md-6">
-        <p class="left">careated by me</p>
+      <div class="col-md-8">
+        <p class="left">careated by Crffty -
+          <br>using: <a target="_blank" href="https://codepen.io/jonnitto/pen/OVmvPB">Jon Uhlmann's "Form fields with material design, in pure CSS"</a>
+          <br><a target="_blank" href="https://ckeditor.com/">ckeditor rich textarea</a>
+          <br>powerd by <a target="_blank" href="https://getbootstrap.com/">bootstraps</a> </p>
+        </div>
+        <div class="col-md-4">
+          <p class="right"><i class="fa fa-copyright" aria-hidden="true"></i> if you're into that kind of thing</p>
+        </div>
       </div>
-      <div class="col-md-6">
-        <p class="right"><i class="fa fa-copyright" aria-hidden="true"></i> space</p>
-      </div>
-    </div>
-  </footer>
+    </footer>
+
+    <!-- - - - - - - - - - - ckeditor js stuff - - - - - - - - - - -->
+    <script>
+    ClassicEditor
+    .create( document.querySelector( '#editor' ) )
+    .catch( error => {
+      console.error( error );
+    } );
+    </script>
 
 
-  <script>
-  ClassicEditor
-  .create( document.querySelector( '#editor' ) )
-  .catch( error => {
-    console.error( error );
-  } );
-  </script>
 
-</body>
-</html>
+  </body>
+  </html>
