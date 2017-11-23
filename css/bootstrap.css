@@ -4010,11 +4010,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  border-bottom: 2px solid rgba(0,0,0,0);
+  border-top: 2px solid rgba(0,0,0,0);
+
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
+  border-bottom: 2px solid #2eacb3;
+  border-top: 2px solid #2eacb3;
 }
 .nav > li.disabled > a {
   color: #777777;
@@ -4026,6 +4031,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
   cursor: not-allowed;
 }
+
+
+
+
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
@@ -4300,7 +4309,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 20px;
   height: 50px;
 }
@@ -4519,8 +4528,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: rgba(0,0,0,0);
+  border-color: #2eacb3;
 }
 .navbar-default .navbar-brand {
   color: #777777;
@@ -6839,7 +6848,6 @@ button.close {
 
 
 
-body{ padding-top: 50px;}
 
 
 .form-radio,
@@ -7116,7 +7124,14 @@ body{ padding-top: 50px;}
   margin-top: 1rem;
 }
 
-
+.dropdown-menu ul li:hover { background-color: #2eacb3 !important;}
+.btn-secondary li:hover { background-color: ;}
+.btn-success li:hover { background-color: ;}
+.btn-danger li:hover { background-color: ;}
+.btn-warning li:hover { background-color: ;}
+.btn-info li:hover { background-color: ;}
+.btn-light li:hover { background-color: ;}
+.btn-dark li:hover { background-color: ;}
 
 .btn-primary .dropArrow {
   background-color: #2eacb3;
@@ -7222,9 +7237,6 @@ body{ padding-top: 50px;}
 }
 
 
-
-
-
 /* - - - - - - - ckeditor - - - - - - - */
 .ck-editor__editable {
   height: 200px;
@@ -7265,15 +7277,38 @@ body{ padding-top: 50px;}
   color: #fff !important;
 }
 
-
-
 .success { color: #b3ccba !important;}
 .danger { color: #e84f5e !important;}
 .warning { color: #f4bd40 !important;}
 .info { color: #5bc0de !important;}
 
-
 .success:hover { color: #b3ccba !important;}
 .danger:hover { color: #e84f5e !important;}
 .warning:hover { color: #f4bd40 !important;}
 .info:hover { color: #5bc0de !important;}
+
+body {
+  height: 100%;
+}
+
+footer {
+  padding: 0 10px 0 10px;
+  margin-top: 50px;
+  width: 100%;
+  /*background-color: rgba(230,230,230, 0.4);*/
+  border-top: 1px solid #2eacb3;
+  display: block;
+  position:static;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: rgba(180, 180, 180, 0.8);
+}
+
+footer p {
+  line-height: 50px;
+  margin-bottom: 0px;
+}
+
+.left { float: left;}
+.right { float: right;}
