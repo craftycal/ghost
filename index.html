@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand|Lato|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-  <title>ghost! ohhhh spookie</title>
+  <title>ghost design</title>
 </head>
 <body>
 
@@ -55,7 +55,7 @@
     </div>
   </nav>
 
-
+  <!-- - - - - - - - - - - popout tool menu - - - - - - - - - - -->
   <div class="popOutButton dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs" aria-hidden="true"></i></div>
   <div class="dropdown-menu pull-right popoutTools" aria-labelledby="dropdownMenuButton">
     <ul>
@@ -64,7 +64,6 @@
       <li><a class="dropdown-item" href="#">Something else here</a> </li>
     </ul>
   </div>
-
 
   <div class="container">
     <div class="row">
@@ -93,29 +92,31 @@
             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
 
-          <hr>
-
           <!-- - - - - - - - - - - well well well, what do we have here?  - - - - - - - - - - -->
           <div class="well">
             <h4>Help I'm in a Well</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. <span class="highlighter-primary">text highlight</span>
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              ut labore et dolore magna aliqua. minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
 
           <hr>
+
           <!-- - - - - - - - - - - Text Highlight - hay! hay!  - - - - - - - - - - -->
           <h3>Text Highlight</h3>
           <p>draw attention to important words</p>
-          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-primary">hello</span> laboris nisi ut aliquip consequat.</p>
-          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-danger">hello</span> laboris nisi ut aliquip consequat.</p>
-          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-info">hello</span> laboris nisi ut aliquip consequat.</p>
-          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-light">hello</span> laboris nisi ut aliquip consequat.</p>
-          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-dark">hello</span> laboris nisi ut aliquip consequat.</p>
-          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-success">hello</span> laboris nisi ut aliquip consequat.</p>
-          <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt <span class="highlighter-warning">hello</span> laboris nisi ut aliquip consequat.</p>
+
+          <p>
+            Lorem ipsum <span class="highlighter-primary">hello</span> dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt.
+            ut labore et dolore magna aliqua <span class="highlighter-danger">hello</span> laboris nisi.
+            Ut enim ad minim veniam quis <span class="highlighter-info">hello</span> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore <span class="highlighter-light">hello</span> eu fugiat nulla pariatur.
+            Excepteur sint occaecat <span class="highlighter-dark">hello</span> cupidatat non proident, sunt in culpa.
+            Qui officia <span class="highlighter-success">hello</span> deserunt mollit anim id est laborum.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna <span class="highlighter-warning">hello</span> aliqua.
+          </p>
 
           <hr>
 
@@ -133,7 +134,7 @@
           <p>pips are small splashes of colour used with alerts and icons</p>
           <p>when using fontawesome within the pips add the "fa-fw" class to the icon this makes the icons the same width</p>
 
-          <p>hello <span class="pip-primary"><i class="fa-fw fa fa-check" aria-hidden="true"></i></span> pip-primary</p>
+          <p>this is a <span class="pip-primary"><i class="fa-fw fa fa-check" aria-hidden="true"></i></span> pip-primary</p>
           <p><span class="pip-danger"><i class="fa-fw fa fa-exclamation-triangle" aria-hidden="true"></i></span> pip-danger</p>
           <p><span class="pip-info"><i class="fa-fw fa fa-bath" aria-hidden="true"></i></span> pip-info</p>
           <p><span class="pip-light"><i class="fa-fw fa fa-times" aria-hidden="true"></i></span> pip-light</p>
@@ -355,6 +356,7 @@
       </div>
     </div>
   </div>
+
   <!-- - - - - - - - - - - footer - - - - - - - - - - -->
   <footer>
     <div class="row">
@@ -362,24 +364,23 @@
         <p class="left">careated by Crffty -
           <br>using: <a target="_blank" href="https://codepen.io/jonnitto/pen/OVmvPB">Jon Uhlmann's "Form fields with material design, in pure CSS"</a>
           <br><a target="_blank" href="https://ckeditor.com/">ckeditor rich textarea</a>
-          <br>powerd by <a target="_blank" href="https://getbootstrap.com/">bootstraps</a> </p>
-        </div>
-        <div class="col-md-4">
-          <p class="right"><i class="fa fa-copyright" aria-hidden="true"></i> if you're into that kind of thing</p>
-        </div>
+          <br>powerd by <a target="_blank" href="https://getbootstrap.com/">bootstraps</a>
+        </p>
       </div>
-    </footer>
+      <div class="col-md-4">
+        <p class="right"><i class="fa fa-copyright" aria-hidden="true"></i> if you're into that kind of thing</p>
+      </div>
+    </div>
+  </footer>
 
-    <!-- - - - - - - - - - - ckeditor js stuff - - - - - - - - - - -->
-    <script>
-    ClassicEditor
-    .create( document.querySelector( '#editor' ) )
-    .catch( error => {
-      console.error( error );
-    } );
-    </script>
+  <!-- - - - - - - - - - - ckeditor js stuff - - - - - - - - - - -->
+  <script>
+  ClassicEditor
+  .create( document.querySelector( '#editor' ) )
+  .catch( error => {
+    console.error( error );
+  } );
+  </script>
 
-
-
-  </body>
-  </html>
+</body>
+</html>
