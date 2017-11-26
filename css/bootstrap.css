@@ -2154,6 +2154,8 @@ html {
       font-size: 12px;
     }
   }
+
+  /*  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - button*/
   .btn {
     display: inline-block;
     margin-bottom: 0;
@@ -2273,13 +2275,11 @@ html {
     border-color: #2eacb3;
     border: 1px solid #2eacb3;
   }
-
   .btn {
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
   }
-
   .btn-primary:focus,
   .btn-primary.focus {
     color: #ffffff;
@@ -6205,7 +6205,7 @@ html {
   }
 
 
-  /* - - - - - - - ckeditor - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ckeditor */
   .ck-editor__editable {
     height: 200px;
     padding: 5px;
@@ -6246,7 +6246,7 @@ html {
   }
 
 
-  /* - - - - - - - - - - - butons - - - - - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - butons*/
   .btn                 { border-radius: 25px; position: relative; margin: 5px; }
   .btn:focus           { outline: none !important; top: 1px; }
 
@@ -6278,7 +6278,7 @@ html {
   .dropdown-menu ul li .dropdown-item { width: 150px !important;}
 
 
-  /* - - - - - - - - - - - alert boxes - - - - - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - alert boxes */
   .alert { border-radius: 0 4px 4px 0; background-color: rgba(0, 0, 0, 0); border-left: none; border-right: 2px solid; border-top: 2px solid; border-bottom: 2px solid; }
   .alert-success  { color: #2eacb3; border-color: #2eacb3;}
   .alert-danger   { color: #e84f5e; border-color: #e84f5e;}
@@ -6286,11 +6286,11 @@ html {
   .alert-info     { color: #5bc0de; border-color: #5bc0de;}
 
 
-  /* - - - - - - - - - - - card - - - - - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - card */
   .card { padding: 15px; border: 1px solid #dddddd; border-radius: 4px; margin-bottom: 20px; }
 
 
-  /* - - - - - - - dropdown buttons - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - dropdown buttons */
   .btn-primary .dropArrow   { background-color: #2eacb3; color: #ffffff; border-radius: 25px; padding: 3px 8px; position: relative; left: 7px; }
   .btn-secondary .dropArrow { background-color: #2eacb3; color: #ffffff; border-radius: 25px; padding: 3px 8px; position: relative; left: 7px; }
   .btn-success .dropArrow   { background-color: #b3ccba; color: #ffffff; border-radius: 25px; padding: 3px 8px; position: relative; left: 7px; }
@@ -6313,7 +6313,7 @@ html {
   .btn-dark:focus  { color: #aaaaaa; }
 
 
-  /* - - - - - - - links - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - links */
   .success { color: #b3ccba; }
   .danger  { color: #e84f5e; }
   .warning { color: #f4bd40; }
@@ -6329,12 +6329,12 @@ html {
   .dark:hover    { color: #3a3d3b; }
 
 
-  /* - - - - - - - footer - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - footer */
   footer { padding: 0 8px 0 8px; margin-top: 50px; width: 100%; border-top: 2px solid rgba(46,172,179,0.2); display: block; position:static; bottom: 0px; left: 0px; right: 0px; color: rgba(180, 180, 180, 0.8); }
   footer p { line-height: 18px; margin: 8px 5px 12px 5px; }
 
 
-  /* - - - - - - - pips - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - pips */
   .pip-primary i { position: relative; top: -1px; }
   .pip-danger i  { vertical-align: middle; position: relative; top: -2px; }
   .pip-info i    { vertical-align: middle; position: relative; top: -2px; }
@@ -6352,7 +6352,7 @@ html {
   .pip-warning  { background-color: #f4bd40; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
 
 
-  /* - - - - - - - highlighter - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - highlighter */
   .highlighter-primary { background-color: #2eacb3; padding: 3px; border-radius: 4px; color: #ffffff; }
   .highlighter-danger  { background-color: #e84f5e; padding: 3px; border-radius: 4px; color: #ffffff; }
   .highlighter-info    { background-color: #5bc0de; padding: 3px; border-radius: 4px; color: #ffffff; }
@@ -6362,11 +6362,11 @@ html {
   .highlighter-warning { background-color: #f4bd40; padding: 3px; border-radius: 4px; color: #ffffff; }
 
 
-  /* - - - - - - - popout nav stuff - - - - - - - */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - popout nav stuff */
   .popOutButton { border: 2px solid #2eacb3; border-radius: 25px; width: 70px; padding: 10px; position: fixed; right: -28px; z-index: 1000 !important; }
   .popOutButton i { text-align: center; position: relative; right: -2px; color: #2eacb3; }
 
-  .popoutTools { text-align: center; font-size: 0.7em; position: fixed !important; top: 76px; right: -5px !important; width: 70px !important; min-width: 74px; border: 2px solid #2eacb3; right: 10px;}
+  .popoutTools { text-align: center; font-size: 0.7em; position: fixed !important; top: 76px; right: -5px !important; width: 70px !important; min-width: 74px; border: 2px solid #2eacb3; right: 10px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
   .popoutTools li { width: 60px; height: 60px; margin-top: 5px;}
   .popoutTools i{ font-size: 2.5em !important; position: relative; top: 12px;}
   .popoutTools a{ position: relative; top: -5px;}
@@ -6376,9 +6376,9 @@ html {
   .popoutTools li:hover { color: #ffffff !important; background-color: #2eacb3; }
   .popoutTools li:hover a { color: #ffffff !important; text-decoration: none;}
 
-div[aria-expanded="true"] { background-color: #2eacb3;  width: 140px; border: 2px solid #2eacb3;}
-div[aria-expanded="true"]:hover { width: 140px; border: 2px solid #2eacb3;}
-div[aria-expanded="true"] i { color: #ffffff !important; }
+  div[aria-expanded="true"] { background-color: #2eacb3;  width: 140px; border: 2px solid #2eacb3;}
+  div[aria-expanded="true"]:hover { width: 140px; border: 2px solid #2eacb3;}
+  div[aria-expanded="true"] i { color: #ffffff !important; }
 
 
   .left { float: left;}
