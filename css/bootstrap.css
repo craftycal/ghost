@@ -6375,5 +6375,8 @@ html {
   .popoutTools li:hover { color: #ffffff !important; background-color: #2eacb3; }
   .popoutTools li:hover a { color: #ffffff !important; text-decoration: none;}
 
+  div[aria-expanded="true"]{ width: 135px;}
+div[aria-expanded="true"]:hover { width: 135px;}
+
   .left { float: left;}
   .right { float: right;}
