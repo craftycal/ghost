@@ -6234,7 +6234,8 @@ html {
     box-shadow: none !important;
   }
   .ck-button:hover {
-    border-bottom: 2px solid #2eacb3 !important;
+    border: 2px solid #2eacb3 !important;
+    border-radius: 25px;
   }
   .ck-list__item_active, .ck-list__item_hover {
     background-color: #2eacb3 !important;
@@ -6243,6 +6244,7 @@ html {
     background-color: #2eacb3 !important;
     border-radius: 3px !important;
     color: #ffffff !important;
+    border-radius: 25px !important;
   }
 
 
