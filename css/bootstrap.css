@@ -6251,7 +6251,7 @@ button.close {
 }
 
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - butons*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - buttons*/
 .btn                 { border-radius: 25px; position: relative; margin: 5px; }
 .btn:focus           { outline: none !important; top: 1px; }
 
@@ -6400,3 +6400,26 @@ footer p { line-height: 18px; margin: 8px 5px 12px 5px; }
 .munuIcon:hover { color: #5e5e5e;}
 .menuText:hover { color: #5e5e5e;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: rgba(0, 0, 0, 0); }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - selecting */
+p::-moz-selection { background: #b3ccba; }
+p::selection { background: #b3ccba; }
+a::-moz-selection { background: #b3ccba; }
+a::selection { background: #b3ccba; }
+li::-moz-selection { background: #b3ccba; }
+li::selection { background: #b3ccba; }
+span::-moz-selection { background: #b3ccba; }
+span::selection { background: #b3ccba; }
+h1::-moz-selection { background: #b3ccba; }
+h2::-moz-selection { background: #b3ccba; }
+h3::-moz-selection { background: #b3ccba; }
+h4::-moz-selection { background: #b3ccba; }
+h5::-moz-selection { background: #b3ccba; }
+h6::-moz-selection { background: #b3ccba; }
+h1::selection { background: #b3ccba; }
+h2::selection { background: #b3ccba; }
+h3::selection { background: #b3ccba; }
+h4::selection { background: #b3ccba; }
+h5::selection { background: #b3ccba; }
+h6::selection  { background: #b3ccba; }
