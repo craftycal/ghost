@@ -6348,13 +6348,13 @@ footer p { line-height: 18px; margin: 8px 5px 12px 5px; }
 .pip-success i { vertical-align: middle; position: relative; top: -2px; }
 .pip-warning i { vertical-align: middle; position: relative; top: -2px; }
 
-.pip-primary  { background-color: #2eacb3; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
-.pip-danger   { background-color: #e84f5e; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
-.pip-info     { background-color: #5bc0de; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
-.pip-light    { background-color: #606361; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
-.pip-dark     { background-color: #3a3d3b; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
-.pip-success  { background-color: #b3ccba; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
-.pip-warning  { background-color: #f4bd40; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
+.pip-primary   { background-color: #2eacb3; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
+.pip-danger    { background-color: #e84f5e; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
+.pip-info      { background-color: #5bc0de; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
+.pip-light     { background-color: #606361; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
+.pip-dark      { background-color: #3a3d3b; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
+.pip-success   { background-color: #b3ccba; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
+.pip-warning   { background-color: #f4bd40; color: #ffffff; border-radius: 25px; padding: 4px 4px; font-size: 1em; text-align: center; margin: 0 4px; }
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - highlighter */
@@ -6403,23 +6403,29 @@ footer p { line-height: 18px; margin: 8px 5px 12px 5px; }
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - selecting */
-p::-moz-selection { background: #b3ccba; }
-p::selection { background: #b3ccba; }
-a::-moz-selection { background: #b3ccba; }
-a::selection { background: #b3ccba; }
-li::-moz-selection { background: #b3ccba; }
-li::selection { background: #b3ccba; }
+p::-moz-selection    { background: #b3ccba; }
+p::selection         { background: #b3ccba; }
+a::-moz-selection    { background: #b3ccba; }
+a::selection         { background: #b3ccba; }
+li::-moz-selection   { background: #b3ccba; }
+li::selection        { background: #b3ccba; }
 span::-moz-selection { background: #b3ccba; }
-span::selection { background: #b3ccba; }
-h1::-moz-selection { background: #b3ccba; }
-h2::-moz-selection { background: #b3ccba; }
-h3::-moz-selection { background: #b3ccba; }
-h4::-moz-selection { background: #b3ccba; }
-h5::-moz-selection { background: #b3ccba; }
-h6::-moz-selection { background: #b3ccba; }
-h1::selection { background: #b3ccba; }
-h2::selection { background: #b3ccba; }
-h3::selection { background: #b3ccba; }
-h4::selection { background: #b3ccba; }
-h5::selection { background: #b3ccba; }
-h6::selection  { background: #b3ccba; }
+span::selection      { background: #b3ccba; }
+h1::-moz-selection   { background: #b3ccba; }
+h2::-moz-selection   { background: #b3ccba; }
+h3::-moz-selection   { background: #b3ccba; }
+h4::-moz-selection   { background: #b3ccba; }
+h5::-moz-selection   { background: #b3ccba; }
+h6::-moz-selection   { background: #b3ccba; }
+h1::selection        { background: #b3ccba; }
+h2::selection        { background: #b3ccba; }
+h3::selection        { background: #b3ccba; }
+h4::selection        { background: #b3ccba; }
+h5::selection        { background: #b3ccba; }
+h6::selection        { background: #b3ccba; }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - pagination */
+.pagination > li > a, .pagination > li > span { border-color: rgba(0,0,0,0); }
+.page-link:hover { background-color: rgba(0, 0, 0, 0); }
+.pagination > li > a:hover { background-color: rgba(0, 0, 0, 0); border-color: rgba(0,0,0,0); text-decoration: underline; }
