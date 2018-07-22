@@ -431,8 +431,8 @@ h6 .small,
 h1, .h1 { font-size: 36px; }
 h2, .h2 { font-size: 30px; }
 h3, .h3 { font-size: 24px; }
-h4, .h4 { font-size: 18px; }
-h5, .h5 { font-size: 14px; }
+h4, .h4 { font-size: 20px; }
+h5, .h5 { font-size: 16px; }
 h6, .h6 { font-size: 12px; }
 p { margin: 0 0 10px; }
 .lead {
@@ -728,6 +728,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -6288,7 +6289,7 @@ button.close {
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - card */
-.card { padding: 15px; border: 1px solid #dddddd; border-radius: 4px; margin-bottom: 20px; }
+.card { padding: 15px; border: 1px solid #dddddd; border-radius: 4px; margin-bottom: 60px; }
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - dropdown buttons */
@@ -6365,15 +6366,15 @@ footer p { line-height: 18px; margin: 8px 5px 12px 5px; }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - popout nav stuff */
 .popoutTools ul { padding-left: 0px; }
-.popOutButton { border: 2px solid #2eacb3; border-radius: 25px; width: 70px; padding: 10px; position: fixed; right: -28px; z-index: 1000 !important; }
-.popOutButton i { text-align: center; position: relative; right: -2px; color: #2eacb3; }
+.popOutButton { border: 2px solid #2eacb3; border-radius: 30px 0 0 30px; width: 80px; padding: 10px; position: fixed; right: -16px; z-index: 1000 !important; }
+.popOutButton i { text-align: center; position: relative; right: -2px; color: #2eacb3; font-size: 2.2em;}
 
 .popoutTools { text-align: center; font-size: 0.7em; position: fixed !important; top: 77px; right: -5px !important; width: 70px !important; min-width: 74px; border: 2px solid #2eacb3; right: 10px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 .popoutTools li { width: 60px; height: 60px; margin-top: 5px;}
 .popoutTools i{ font-size: 2.5em !important; position: relative; top: 12px;}
 .popoutTools a{ position: relative; top: -5px;}
 
-.popOutButton:hover { border: 2px solid #2eacb3; background-color: #2eacb3; width: 80px; padding: 10px; right: -22px; cursor: pointer; }
+.popOutButton:hover { border: 2px solid #2eacb3; background-color: #2eacb3; width: 96px; padding: 10px; right: -22px; cursor: pointer; }
 .popOutButton:hover i { text-align: center; position: relative; right: -5px; color: #ffffff; }
 .popoutTools li:hover { color: #ffffff !important; background-color: #2eacb3; }
 .popoutTools li:hover a { color: #ffffff !important; text-decoration: none;}
@@ -6425,3 +6426,5 @@ h6::selection        { background: #b3ccba; }
 .pagination > li > a, .pagination > li > span { border-color: rgba(0,0,0,0); }
 .page-link:hover { background-color: rgba(0, 0, 0, 0); }
 .pagination > li > a:hover { background-color: rgba(0, 0, 0, 0); border-color: rgba(0,0,0,0); text-decoration: underline; }
+
+.active { color: #2eacb3;}
